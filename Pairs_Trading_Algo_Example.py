@@ -46,7 +46,7 @@ def pairs_trading_algo(self):
     times_2 = []
     for i in range(days):
         stock2_close = stock2_bars[i].c
-        stock2_time = stock1_bars[i].t
+        stock2_time = stock2_bars[i].t
         data_2.append(stock2_close)
         times_2.append(stock2_time)
     #Putting them together
